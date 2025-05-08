@@ -122,9 +122,6 @@ $userID = $_SESSION['userID']; // gets userID from session
         <section class="extra-section">
             <div class="section-header">
                 <h2>Extra Expenses</h2>
-                    <div class="extra-actions">
-                        
-                    </div>
             </div>
 
             <!-- Form to update/add/delete extra entities -->
