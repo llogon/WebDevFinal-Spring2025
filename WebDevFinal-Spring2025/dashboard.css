@@ -1,0 +1,76 @@
+body {
+    background-color: #99bd63;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+
+.budget-button {
+    background-color: #c2db89;
+    box-shadow: 0 4px #a5be6b;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #c2db89;
+    box-shadow: 0 4px #a5be6b;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th,td {
+    padding: 8px;
+    text-align: center;
+}

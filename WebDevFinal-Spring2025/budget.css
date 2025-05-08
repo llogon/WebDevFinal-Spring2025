@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #99bd63;
+}
+
+.container {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    background: #f3f3f3;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px #ccc;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+}
+
+.checkboxes {
+    margin-bottom: 10px;
+}
+
+.checkboxes label {
+    margin-right: 10px;
+}
+
+.amount {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    background-color: #c2db89;
+    box-shadow: 0 4px #a5be6b;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.save, .go-back {
+    background-color: #c2db89;
+    box-shadow: 0 4px #a5be6b;
+}
+
+.expenses-list, .extra-list {
+    background: #bdbdbd;
+    border-radius: 4px;
+    margin-top: 10px;
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+th {
+    background-color: #f3f3f3;
+    border-bottom: 2px solid #bbb;
+}
+
+.expenses-list table {
+    width: 100%;
+}
+
+tr {
+    height: 50px;
+    cursor: pointer;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.expense-actions, .extra-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.expense-actions button, .extra-actions button, .income-action button {
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hidden-cell {
+    display: none;
+}
